@@ -1,0 +1,23 @@
+{
+  "name": "chrome-ext-aws-confirm-filler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jay-es/chrome-ext-aws-confirm-filler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jay-es/chrome-ext-aws-confirm-filler/issues"
+  },
+  "homepage": "https://github.com/jay-es/chrome-ext-aws-confirm-filler#readme",
+  "devDependencies": {
+    "@types/chrome": "^0.0.197"
+  }
+}

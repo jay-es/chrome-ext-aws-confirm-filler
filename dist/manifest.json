@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "chrome-ext-aws-confirm-filler",
+  "version": "0.1.0",
+  "description": "",
+  "permissions": ["contextMenus"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.console.aws.amazon.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
